@@ -58,18 +58,18 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | Name  | Component | Description |
 | ------------- | ------------- | ------------- |
 | Train-µC  | ATmega168PA  | [ATmega168PA µC](Datasheets/ATmega168PA_Datasheet.pdf)|
-| Engine Stepper Driver  | POLOLU MD09B Stepper Driver  | -  |
+| Engine Stepper Driver  | POLOLU MD09B Stepper Driver  | [Stepper Driver](Datasheets/Pololu_Driver.pdf)  |
 | Train Engine  | -  | -  |
-| Bluetooth-Module 1  | Bluetooth-RN42-I/RM  | -  |
-| LiPo Battery  | -  | 10V, regulated down with    |
+| Bluetooth-Module 1  | Bluetooth-RN42-I/RM  | [Bluetoothmodul](Datasheets/RN42.pdf)  |
+| LiPo Battery  | -  | 10V, regulated down with [Voltage Regulator](Datasheets/lm2937.pdf)    |
 
 #### Station
 
 | Name  | Component | Description |
 | ------------- | ------------- | ------------- |
 | Power Supply  | -  | Line Voltage to 12V  |
-| EVA Board  | Atmel Eva-Board 2.01 with ATmega644P  | -  |
-| PCB  | -  | -  |
+| EVA Board  | Atmel Eva-Board 2.01 with ATmega644P  | [Eva-Board](Datasheets/Atmel_Eva_Board.pdf) and [µC](ATmega644P)  |
+| PCB  | -  |Photos of the [PCB](PCB%20Layout) , [Wiring](Wiring) and [Eagle Schematics](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/pcb-designs.git)  |
 | Cam - Trigger  | -  | -  |
 | LiPo Battery  | -  | -  |
 | Laser - Linescanner  | -  | -  |
@@ -77,7 +77,7 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | Magnetic Field Sensor 1&2  | -  | -  |
 | Halogen Lamp  | -  | 12V  |
 | Light Barrier  | -  | -  |
-| Bluetooth-Module 2  | Bluetooth-RN42-I/RM  | -  |
+| Bluetooth-Module 2  | Bluetooth-RN42-I/RM  | [Bluetoothmodul](Datasheets/RN42.pdf)  |
 
 #### PC
 | Name  | Component | Description |
@@ -88,8 +88,15 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | RGB - Cam  | -  | -  |
 | Display/GUI  | -  | Implemented in MatLab  |
 
-### Current Pinout and Pin Requirements for the Redesign
-[Placeholder]
+### Pin Requirements for the Redesign
+
+Two prime options for the µC-Boards for the station and train are the [Arduino Nano33 IOT](https://store.arduino.cc/nano-33-iot) and the [Arduino Nano v3.0](https://store.arduino.cc/arduino-nano).  While they offer exactly the same Pins and Size, the Nano33 comes with a built-in Bluetooth Module. It does, however, only work with 3.3V (instead of 3.3V and 5V like the Nano).
+
+Therefore, it has to be checked if the available Pins are sufficient and if the possible additional work of regulating existing components down to 3.3V outweighs the benefit of Bluetooth without the need for an additional component.
+
+
+
+
 ## Components after Redesign
 ### Photographic Overview
 [Placeholder]
