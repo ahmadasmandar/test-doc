@@ -46,7 +46,7 @@ A3 -- Active/Inactive --> C3[FIR - Cam]
 A3 -- Active/Inactive --> D3[RGB - Cam]
 A3 -- Picture Data -->E3[Display/GUI]
 end
-
+B2 -- Position, Speed,Direction -->A3
 E2 -- Picture Data --> A3
 D1-. Position, Speed,Direction .-K2
 
@@ -77,7 +77,7 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | Magnetic Field Sensor 1&2  | -  | -  |
 | Halogen Lamp  | -  | 12V  |
 | Light Barrier  | -  | -  |
-| Bluetooth-Module 2  | Bluetooth-RN42-I/RM  | [Bluetoothmodul](Datasheets/RN42.pdf)  |
+| Bluetooth-Module 2  | Bluetooth-RN42-I/RM  | [Bluetoothmodule](Datasheets/RN42.pdf)  |
 
 #### PC
 | Name  | Component | Description |
@@ -90,7 +90,7 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 
 ### Pin Requirements for the Redesign
 
-Two prime options for the µC-Boards for the station and train are the [Arduino Nano33 IOT](https://store.arduino.cc/nano-33-iot) and the [Arduino Nano v3.0](https://store.arduino.cc/arduino-nano).  While they offer exactly the same Pins and Size, the Nano33 comes with a built-in Bluetooth Module. It does, however, only work with 3.3V (instead of 3.3V and 5V like the Nano).
+Two prime options for the µC-Boards for the station and train are the [Arduino Nano33 IOT](https://store.arduino.cc/nano-33-iot) and the [Arduino Nano v3.0](https://store.arduino.cc/arduino-nano).  While they offer exactly the same Pins and Size, the Nano33 comes with a built-in Bluetooth Module. It does, however, only work with an operating Voltage of 3.3V (instead of 3.3V and 5V like the Nano).
 
 Therefore, it has to be checked if the available Pins are sufficient and if the possible additional work of regulating existing components down to 3.3V outweighs the benefit of Bluetooth without the need for an additional component.
 
