@@ -28,8 +28,8 @@ A1 -- On/Off --> G1[LEDS]
 end
 
 subgraph Station
-A2[Power Supply] -- Power -->B2[EVA Board]
-B2 -- Data Connection ---C2[PCB]
+A2[Power Supply] -- Power -->C2[PCB]
+B2[EVA Board] -- Data Connection ---C2
 C2 -- Start -->D2[Cam - Trigger]
 D2 -- Start -->E2[Laser - Linescanner]
 C2 -- Color Red/Yellow -->F2[Traffic Light]
@@ -46,7 +46,7 @@ A3 -- Active/Inactive --> C3[FIR - Cam]
 A3 -- Active/Inactive --> D3[RGB - Cam]
 A3 -- Picture Data -->E3[Display/GUI]
 end
-B2 -- Position, Speed,Direction -->A3
+B2 -- Position, Speed,Direction ---A3
 E2 -- Picture Data --> A3
 D1-. Position, Speed,Direction .-K2
 
@@ -60,14 +60,14 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | Train-µC  | ATmega168PA  | [ATmega168PA µC](Datasheets/ATmega168PA_Datasheet.pdf)|
 | Engine Stepper Driver  | POLOLU MD09B Stepper Driver  | [Stepper Driver](Datasheets/Pololu_Driver.pdf)  |
 | Train Engine  | -  | -  |
-| Bluetooth-Module 1  | Bluetooth-RN42-I/RM  | [Bluetoothmodul](Datasheets/RN42.pdf)  |
-| LiPo Battery  | -  | 10V, regulated down with [Voltage Regulator](Datasheets/lm2937.pdf)    |
+| Bluetooth-Module 1  | Bluetooth-RN42-I/RM  | [Bluetoothmodule](Datasheets/RN42.pdf)  |
+| LiPo Battery  | -  | Jamara LiPo 25C 7,4V regulated with [Voltage Regulator](Datasheets/lm2937.pdf) and charged with LiPo 25 balancer PHQ-CPU7V4    |
 
 #### Station
 
 | Name  | Component | Description |
 | ------------- | ------------- | ------------- |
-| Power Supply  | -  | Line Voltage to 12V  |
+| Power Supply  | -  | [Line Voltage to 12V](Datasheets/Powersupply_POS-60-spec_PL_NL.pdf) |
 | EVA Board  | Atmel Eva-Board 2.01 with ATmega644P  | [Eva-Board](Datasheets/Atmel_Eva_Board.pdf) and [µC](ATmega644P)  |
 | PCB  | -  |Photos of the [PCB](PCB%20Layout) , [Wiring](Wiring) and [Eagle Schematics](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/pcb-designs.git)  |
 | Cam - Trigger  | -  | -  |
@@ -90,9 +90,9 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 
 ### Pin Requirements for the Redesign
 
-Two prime options for the µC-Boards for the station and train are the [Arduino Nano33 IOT](https://store.arduino.cc/nano-33-iot) and the [Arduino Nano v3.0](https://store.arduino.cc/arduino-nano).  While they offer exactly the same Pins and Size, the Nano33 comes with a built-in Bluetooth Module. It does, however, only work with an operating Voltage of 3.3V (instead of 3.3V and 5V like the Nano).
+Two prime Candidates for the station and train µC-Boards  are the [Arduino Nano33 IOT](https://store.arduino.cc/nano-33-iot) and the [Arduino Nano v3.0](https://store.arduino.cc/arduino-nano).  While the Nano33 offers the same Pins and Size as the Nano, the Nano33 comes with a built-in Bluetooth Module. It does, however, only work with an operating Voltage of 3.3V (instead of 3.3V and 5V like the Nano).
 
-Therefore, it has to be checked if the available Pins are sufficient and if the possible additional work of regulating existing components down to 3.3V outweighs the benefit of Bluetooth without the need for an additional component.
+Therefore, it has to be checked if the available Pins are sufficient and if the possible additional work of regulating existing components down to 3.3V outweighs the benefit of inherent Bluetooth capability.
 
 
 
