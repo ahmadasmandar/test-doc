@@ -1,4 +1,3 @@
-
 # Hardware Documentation
 
 The following document describes the **Components and their Interactions**  before and after the Redesign of the Multicamera-Demonstrator to an Arduino-based Project. It's primarily meant as a guideline to enable the Development team **to implement cohesive and decoupled functions** for optimal code readability, reusability and debugging.
@@ -74,9 +73,9 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | LiPo Battery  | -  | -  |
 | Laser - Linescanner  | -  | -  |
 | Traffic Light  | -  | -  |
-| Magnetic Field Sensor 1&2  | -  | -  |
+| Magnetic Field Sensor 1&2  | Reedrelais RGS 13/1- 03/512/01  | [Reedrelais-Datasheet](Datasheets/relais-rgk13.pdf)  |
 | Halogen Lamp  | -  | 12V  |
-| Light Barrier  | -  | -  |
+| Light Barrier  | OMRON Photomicrosensor (Transmissive) EE-SX1070  | [Photomicrosensor-Datasheet](Datasheets/lichtschranke-en-ee_sx1070.pdf)  |
 | Bluetooth-Module 2  | Bluetooth-RN42-I/RM  | [Bluetoothmodule](Datasheets/RN42.pdf)  |
 
 #### PC
@@ -86,6 +85,7 @@ The Railcar housing these Components can be found under [3D-CAD Files](https://g
 | NIR - Cam  | -  | -  |
 | FIR - Cam  | -  | -  |
 | RGB - Cam  | -  | -  |
+| Multi-spectrum-Cam | Lens: RICOH 16mm FL-CC1614-2M , RJ45 LAN Connector | - |
 | Display/GUI  | -  | Implemented in MatLab  |
 
 ### Pin Requirements for the Redesign
