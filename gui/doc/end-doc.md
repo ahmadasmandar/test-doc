@@ -35,6 +35,6 @@ Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befind
 |Einzelbild|ein Foto aufnehmen und auf dem Bildschirm zeigen|
 |Erkennen|QR-Code im Bild erkenen und In der Textuelle unten Zeigen|
 
-![Abb3](images/QRerkennen.png "QR code erkennen")  
+![Abb4](images/QRerkennen.png "QR code erkennen")  
 
 ---
