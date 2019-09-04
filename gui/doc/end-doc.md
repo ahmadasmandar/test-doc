@@ -24,7 +24,7 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 
 ## **QR-Code Kamera**
 
-![Abb3](images/QR1.png "QR code Kamera")  
+![Abb3](images/QR1.PNG "QR code Kamera")  
 
 Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befindet.
 
@@ -35,6 +35,6 @@ Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befind
 |Einzelbild|ein Foto aufnehmen und auf dem Bildschirm zeigen|
 |Erkennen|QR-Code im Bild erkenen und In der Textuelle unten Zeigen|
 
-![Abb4](images/QRerkennen.png "QR code erkennen")  
+![Abb4](images/QRerkennen.PNG "QR code erkennen")  
 
 ---
