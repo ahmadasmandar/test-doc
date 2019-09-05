@@ -1,9 +1,9 @@
 1-	Es gibt keine Rückmeldung, dass die Kamers bereit sind
 2-	Programm hängt manchmal und schließt von allein
 3-	Infrarot Kamera hat keine Funktion
-4-	Wenn Led an Halogenlampe in Automodus sind kommt einen Fehler vor 
+4-	Wenn Led und Halogenlampe in Automodus sind kommt einen Fehler vor 
 „Einziel bild konnte nicht geladen werden“
-Und die Led und Halogen werden gleich zeitig eingeschaltet
+Und die Led und Halogen werden gleichzeitig eingeschaltet
 5-	Man muss Coms verbinden dann warten (es gibt keine Rückmeldung), dann Kameras initialisieren und warten (es gibt keine Rückmeldung)
 6-	Vermutet wird, dass infrarot Kamera Funktion ist, es zu erkennen ob jemand oder ein Tier in der Nähe ist oder nicht … also Schützen.
 7-	Demo Modus läuft ohne ende 
