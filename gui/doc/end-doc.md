@@ -20,7 +20,8 @@ jetzt ist das Programmm bereit und man kann es benutzen. Die beiden Tasten befin
 Das Programm muss initialisiert werden, indem man erst die **COM-Port verbinden** Taste drückt. Dann wird die **Demo Modus** Taste aktiviert. danach muss die **Kameras initialisieren** Taste gedrückt werden. Die beiden Tasten befinden sich in der oberern rechten Seite von der Bedienoberfläche *(Teil 1)* Abb (2). Es dauert ungefähr 10 Sekunden, bevor das System bereit ist.  
 -->
 
-![Abb2](images/kontro1.PNG "Kontrol 1")  
+<!-- ![Abb2](images/kontro1.PNG "Kontrol 1")   -->
+<img src="images/kontro1.PNG" width="200" height="400">   
 
 Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt, bekommt er einen `Fehler` Abb (3).
 
