@@ -28,7 +28,8 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 ---
 ## **Programmbedienen**
 ### **Eisenbahn**
-![EISENBAHN](images/Eisbahn.PNG)  
+<!-- ![EISENBAHN](images/Eisbahn.PNG)   -->
+<img src="images/Eisbahn.PNG" width="250" height="150">  
 
 Damit hat man die Möglichkeit den Zug `manuell` zu fahren und die Richtung des Fahrens etnweder **links** oder **rechts** mit der **Geschwindigkeit**, die durch einen Schieber bestimmt werden kann, auszuwählen.
 Das programm muss **bevor** diesem Verfahren initialisiert werden.   
@@ -39,8 +40,8 @@ Das programm muss **bevor** diesem Verfahren initialisiert werden.
 ---
 
 ## **QR-Code Kamera**
-
-![Abb3](images/QR1.PNG "QR code Kamera")  
+ <img src="images/QR1.PNG" width="500" height="350"> 
+<!-- ![Abb3](images/QR1.PNG "QR code Kamera")   -->
 
 Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befindet.
 
@@ -49,8 +50,9 @@ Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befind
 | **Livebild**   | die Kamera zeigt die Bildkomposition über den Bildschirm  |
 | **Stopp**      | Kamera Ausschalten                                        |
 | **Einzelbild** | ein Foto aufnehmen und auf dem Bildschirm zeigen          |
-| **Erkennen**   | QR-Code im Bild erkenen und In der Textuelle unten Zeigen |
+| **Erkennen**   | QR-Code im Bild erkenen und In der Textuelle unten Zeigen |  
 
-![Abb3](images/QRerkennen.PNG "QR code erkennen")  
+ <img src="images/QRerkennen.PNG" width="500" height="350"> 
+<!-- ![Abb3](images/QRerkennen.PNG "QR code erkennen")   -->
 
 ---
