@@ -46,10 +46,10 @@ Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befind
 
 | Taste      | Funktion                                                  |
 | ---------- | --------------------------------------------------------- |
-| Livebild   | die Kamera zeigt die Bildkomposition über den Bildschirm  |
-| Stopp      | Kamera Ausschalten                                        |
-| Einzelbild | ein Foto aufnehmen und auf dem Bildschirm zeigen          |
-| Erkennen   | QR-Code im Bild erkenen und In der Textuelle unten Zeigen |
+| **Livebild**   | die Kamera zeigt die Bildkomposition über den Bildschirm  |
+| **Stopp**      | Kamera Ausschalten                                        |
+| **Einzelbild** | ein Foto aufnehmen und auf dem Bildschirm zeigen          |
+| **Erkennen**   | QR-Code im Bild erkenen und In der Textuelle unten Zeigen |
 
 ![Abb3](images/QRerkennen.PNG "QR code erkennen")  
 
