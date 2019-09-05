@@ -4,10 +4,11 @@
 ## **Demo-Modus**
 
 Das hapute Ziel des **Demomodus** ist, das ganze System und alle Komponenten zu testen und einen guten Überblick über seine Funktionalität zu geben.  
-Das Modus wird von einem durch **Matlab-GUI und AppDesigner** erstellten Prdogramm gesteurt.
+Das Modus wird von einem durch **Matlab-GUI und AppDesigner** erstellten Prdogramm gesteurt.  
 Das Programm besteht hauptsichlich aus 2 Teilen, Dem Programm-Initialisition und Zugkontrol Teil `1` am rechten Seite und dem Kameras Kontrol Teil `2` Abb (1).
 
-![Abb1](images/oberflacheAktiv.PNG  "Nutzer Bedienoberfläche")
+<!-- ![Abb1](images/oberflacheAktiv.PNG  "Nutzer Bedienoberfläche") -->
+<img src="images/oberflacheAktiv.PNG" width="600" height="300"> 
 ---
 
 ## **Programm Initialisieren**
@@ -31,7 +32,7 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 <!-- ![EISENBAHN](images/Eisbahn.PNG)   -->
 <img src="images/Eisbahn.PNG" width="250" height="150">  
 
-Damit hat man die Möglichkeit den Zug `manuell` zu fahren und die Richtung des Fahrens etnweder **links** oder **rechts** mit der **Geschwindigkeit**, die durch einen Schieber bestimmt werden kann, auszuwählen.
+Damit hat man die Möglichkeit den Zug `manuell` zu fahren und die Richtung des Fahrens etnweder **links** oder **rechts** mit der **Geschwindigkeit**, die durch einen Schieber bestimmt werden kann, auszuwählen.  
 Das programm muss **bevor** diesem Verfahren initialisiert werden.   
 
 ### **Led**
