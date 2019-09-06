@@ -39,6 +39,11 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 
 ## **Programmbedienung**  
 
+### **Akku**
+
+---
+![placeholder](images/placeholder.PNG)
+
 ### **Eisenbahn**  
 
 ---  
@@ -83,6 +88,15 @@ Die **Multispektralkamera** setzt spezielle *Lichtbedingungen* voraus, damit sie
 | **Aus**| Lampe ausschalten|
 | **An**| Lampe anschalten |
 | **Auto**| Lampe wird automatisch ein- oder ausgeschaltet|
+
+### **Demo Modus Taste**
+
+---  
+![demotaste](images/demotaste.PNG)  
+
+Nachdem das Programm initialisiert wurde -wie im Abschnitt [**Programm Initialisieren**](end-doc#L19)-, kann man die **Demo Modus** Taste drücken.  
+
+Im Demo Modus fährt der Zug immer wieder im Kreisbahn. In der erste Runde wird die **QR-Code** gescannt und erkennt. Dann in der Nächsten wird ein Objekt durch **3D-Laserscanner** gescannt. Dannch wird ein **multispektral** Foto aufgenommen. Alles wiederholt sich immer wieder, bis die **Demo Modus** Taste wieder gedrückt wird.  
 
 
 ## **QR-Code Kamera**  
