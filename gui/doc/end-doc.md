@@ -42,10 +42,11 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 
 Damit hat man die Möglichkeit den Zug `manuell` zu fahren und die Richtung des Fahrens etnweder **links** oder **rechts** mit der **Geschwindigkeit**, die durch einen Schieber bestimmt werden kann, auszuwählen.  
 Das programm muss **bevor** diesem Verfahren initialisiert werden.  
-| Taste| Funktion|
-|------|---------|
-| **Links**| Bewegungsrichtung nach Links auswählen|
-|**Rchts**| Bewegungsrichtung nach Rechts auswälen|
+
+| Taste| Funktion                                    |
+|------|-------------------------------------------  |
+| **Links**| Bewegungsrichtung nach Links auswählen  |
+|**Rchts**| Bewegungsrichtung nach Rechts auswälen   |
 |**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|
 ### **Led**  
 
