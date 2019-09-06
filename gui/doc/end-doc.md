@@ -41,9 +41,18 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 <img src="images/Eisbahn.PNG" width="250" height="150">    
 
 Damit hat man die Möglichkeit den Zug `manuell` zu fahren und die Richtung des Fahrens etnweder **links** oder **rechts** mit der **Geschwindigkeit**, die durch einen Schieber bestimmt werden kann, auszuwählen.  
-Das programm muss **bevor** diesem Verfahren initialisiert werden.
+Das programm muss **bevor** diesem Verfahren initialisiert werden.  
+| Taste| Funktion|
+|------|---------|
+| **Links**| Bewegungsrichtung nach Links auswählen|
+|**Rchts**| Bewegungsrichtung nach Rechts auswälen|
+|**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|  
+ 
+### **Led**  
 
-### **Led**
+<img src="images/led.PNG" width="250" height="165">  
+
+Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden 
 
 ---
 
