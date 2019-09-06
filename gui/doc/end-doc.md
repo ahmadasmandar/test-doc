@@ -3,7 +3,9 @@
 ![Demo-Ver](svgs/demov1.svg)
 ![Matlab-Ver](svgs/versions.svg)  
 
-## **Demo-Modus**
+## **Demo-Modus**  
+
+---
 
 Das hapute Ziel des **Demomodus** ist, das ganze System und alle Komponenten zu testen und einen guten Überblick über seine Funktionalität zu geben.  
 Das Modus wird von einem durch **Matlab-GUI und AppDesigner** erstellten Prdogramm gesteurt.  
@@ -16,6 +18,7 @@ Das Programm besteht hauptsichlich aus 2 Teilen, Dem Programm-Initialisition und
 
 ## **Programm Initialisieren**  
 
+---
 1. **Com-Port verbinden** Taste drücken und warten darauf, bis die Tasten im Teil 1 aktiviert werden.
 2. **Kameras initialisieren** Taste drücken und warten darauf, bis die Tasten im Teil 2 aktiviert werden.  
 
@@ -36,7 +39,10 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 
 ## **Programmbedienung**  
 
-### **Eisenbahn**
+### **Eisenbahn**  
+
+---  
+
 <!-- ![EISENBAHN](images/Eisbahn.PNG)   -->
 <img src="images/Eisbahn.PNG" width="250" height="150">    
 
@@ -47,14 +53,14 @@ Das programm muss **bevor** diesem Verfahren initialisiert werden.
 |------|-------------------------------------------  |
 | **Links**| Bewegungsrichtung nach Links auswählen  |
 |**Rchts**| Bewegungsrichtung nach Rechts auswälen   |
-|**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|
+|**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|  
+
 ### **Led**  
 
+---
 <img src="images/led.PNG" width="250" height="165">  
 
 Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richtig arbeiten können. Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden.
-
----
 
 ## **QR-Code Kamera**  
 
