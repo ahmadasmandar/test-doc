@@ -64,10 +64,10 @@ Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richti
 
 | Taste| Funktion  |
 |------|-----------|
-| **Led 1**| Led 1 anschalten  |
-| **Led 2**| Led 2 anschalten  |
+| **Led 1**| Led 1 anschalten  `von Anfang`|
+| **Led 2**| Led 2 anschalten  `von Anfang`|
 |**Beide**| Led 1 und Led 2 zusammen anschalten   |
-|**Auto**| Es wird automatisch geprüft ob mehr Licht gebraucht ist ggf. Led 1 oder 2 oder die beiden anshcalten |  
+|**Auto**| Es wird automatisch geprüft ob mehr Licht gebraucht ist ggf. Led 1 oder 2 oder die beiden anshcalten, aber nur wenn der Wagen in der richtigen Position ist |  
 | **Aus**| Kein Led anschalten  |
 
 ## **Halogenlampe**  
