@@ -58,9 +58,26 @@ Das programm muss **bevor** diesem Verfahren initialisiert werden.
 ### **Led**  
 
 ---
-<img src="images/led.PNG" width="250" height="165">  
+<img src="images/led.PNG" width="300" height="165">  
 
-Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richtig arbeiten können. Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden.
+Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richtig arbeiten können. Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden.  
+
+| Taste| Funktion  |
+|------|-----------|
+| **Led 1**| Led 1 anschalten  |
+| **Led 2**| Led 2 anschalten  |
+|**Beide**| Led 1 und Led 2 zusammen anschalten   |
+|**Auto**| Es wird automatisch geprüft ob mehr Licht gebraucht ist ggf. Led 1 oder 2 oder die beiden anshcalten |  
+| **Aus**| Kein Led anschalten  |
+
+## **Halogenlampe**  
+
+---
+
+
+
+
+
 
 ## **QR-Code Kamera**  
 
