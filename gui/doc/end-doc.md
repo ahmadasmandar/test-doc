@@ -46,13 +46,12 @@ Das programm muss **bevor** diesem Verfahren initialisiert werden.
 |------|---------|
 | **Links**| Bewegungsrichtung nach Links auswählen|
 |**Rchts**| Bewegungsrichtung nach Rechts auswälen|
-|**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|  
- 
+|**Geschwindigkeit**| Zugsgeschwindigkeit von  0 -- 9|
 ### **Led**  
 
 <img src="images/led.PNG" width="250" height="165">  
 
-Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden 
+Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richtig arbeiten können. Die optionen, mit denen man festlegt, wie stark die Beleuchtung ist, können ebenfalls hier gefunden werden.
 
 ---
 
