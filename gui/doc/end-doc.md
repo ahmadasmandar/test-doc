@@ -70,13 +70,19 @@ Manchmal ist die Beleuchtung von der Umgebung nicht genug, um die Kameras richti
 |**Auto**| Es wird automatisch geprüft ob mehr Licht gebraucht ist ggf. Led 1 oder 2 oder die beiden anshcalten, `aber nur` wenn der Wagen in der richtigen Position ist |  
 | **Aus**| die beiden Leds ausschalten  |
 
-## **Halogenlampe**  
+### **Halogenlampe**  
 
 ---
+Die **Multispektralkamera** setzt spezielle *Lichtbedingungen* voraus, damit sie richtig funktioniert und wertvolle nutzbare Bilder gewährleistet. Deswegen wurde eine **Halogenlampe** am Projekt hinzugefügt. Diese Lampe konnte einfach durch die folgenden Fläche bedient werden.  
+`Die Kamera wird nur eingeschaltet, wenn der Wagen in der richtigen Position ist`
 
+<img src="images/halogenlampe.PNG" width="250" height="150">  
 
-
-
+| Taste| Funktion  |
+|------|-----------|
+| **Aus**| Lampe ausschalten|
+| **An**| Lampe anschalten |
+| **Auto**| Lampe wird automatisch ein- oder ausgeschaltet|
 
 
 ## **QR-Code Kamera**  
