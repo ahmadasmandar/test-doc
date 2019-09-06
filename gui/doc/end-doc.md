@@ -94,7 +94,7 @@ Die **Multispektralkamera** setzt spezielle *Lichtbedingungen* voraus, damit sie
 ---  
 ![demotaste](images/demotaste.PNG)  
 
-Nachdem das Programm initialisiert wurde -wie im Abschnitt [**Programm Initialisieren**](end-doc.md#L19)-, kann man die **Demo Modus** Taste drücken.  
+Nachdem das Programm initialisiert wurde -wie im Abschnitt [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#L19)-, kann man die **Demo Modus** Taste drücken.  
 
 Im Demo Modus fährt der Zug immer wieder im Kreisbahn. In der erste Runde wird die **QR-Code** gescannt und erkennt. Dann in der Nächsten wird ein Objekt durch **3D-Laserscanner** gescannt. Dannch wird ein **multispektral** Foto aufgenommen. Alles wiederholt sich immer wieder, bis die **Demo Modus** Taste wieder gedrückt wird.  
 
