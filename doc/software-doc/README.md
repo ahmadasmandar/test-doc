@@ -71,7 +71,9 @@ There should be a test enabled for every feature or bug fix that is committed. S
 </details>
 
 # C++ Coding Standards Part 1: Style
-
+<details>
+  <summary>Click to expand!</summary>
+  
 Style guidelines are not overly strict. The important thing is that code is clear and readable with an appropriate amount of whitespace and reasonable length lines. A few best practices are also mentioned.
 
 ## Descriptive and Consistent Naming
@@ -332,7 +334,11 @@ namespace my_project {
 // Bad Idea
 #define PI 3.14159;
 ```
+</details>
+
 # C++ Coding Standards Part 2: Performance and Safety
+<details>
+  <summary>Click to expand!</summary>
 
 ## Limit Variable Scope
 
@@ -456,6 +462,8 @@ Heap operations have performance penalties in mulithreaded environments on most 
 
 Modern C++11 has special move operations which are designed to enhances the performance of stack based data by reducing or eliminating copies, which can bring even the single threaded case on par with heap based operations.
 
+</details>
+
 # References and Further Reading
 
 
@@ -466,3 +474,4 @@ Modern C++11 has special move operations which are designed to enhances the perf
  * http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=ListOfChecks
  * http://emptycrate.com/ 
 </details>
+
