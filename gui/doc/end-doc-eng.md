@@ -38,13 +38,13 @@ If the  **Demo Modus** button is pressed before the **Kamerasinitialisieren** bu
 
 Shows the level of the battery in cV, for example: 779 that means 7.79 Volt.
 
-<img src="images/akku-connected.PNG" width="321" height="45">
+<img src="images/akku-connected.png" width="321" height="45">
 
 [Fig 4](images/akku-connected.png) "Battery connected"
 
 Before pressing the **COM-Port verbinden** button, the voltage of the battery will not be shown.
 
-<img src="images/akku-notconnected.PNG" width="321" height="45">
+<img src="images/akku-notconnected.png" width="321" height="45">
 
 [Fig 5](images/akku-notconnected.png) "Battery not-connected"
 
@@ -157,9 +157,9 @@ If the train is moving too fast, the QR-Code can not be detected. The message tu
 
 With the help of a laser line, the object, which is located on a train carriage, is scanned. After scanning, a 3D photo will be displayed on the screen, which can be rotated 360 degrees using the touchscreen.
 
-<img src="images/3d.PNG" width="381" height="256"> 
+<img src="images/3d.png" width="381" height="256"> 
 
-[Fig 12](images/3d.PNG) "3D via Laser line"
+[Fig 12](images/3d.png) "3D via Laser line"
 
 | Button      | Function                                                  |
 | ---------- | --------------------------------------------------------- |
@@ -180,7 +180,7 @@ If the recorded photos are insufficient to calculate a 3D model, an error messag
 
 <img src="images/Error3d.PNG" width="304" height="147"> 
 
-[Fig 14](images/Error3d.PNG) "3D Error"
+[Fig 14](images/Error3D.PNG) "3D Error"
 
 ## **Multispectral**
 
