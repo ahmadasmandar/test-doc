@@ -176,7 +176,7 @@ Wenn die aufgenommenen Bilder nicht ausreichen, um ein 3D-Modell zu berechnen, w
 
 [Abb 14](images/Error3D.PNG) "3D Fehler"
 
-## **Multispectral**
+## **Multispektral**
 
 Diese Kamera verwendet die Halogenlampe, um ein Infrarotbild im nahen Infrarotbereich aufzunehmen.
 
@@ -190,7 +190,7 @@ Diese Kamera verwendet die Halogenlampe, um ein Infrarotbild im nahen Infrarotbe
 | **Stopp**      | Kamera ausschalten                                     |
 | **Einzelbild** | Bild aufnehmen und auf dem Bildschirm anzeigen          |
 
-## **Infrared**
+## **Infrarot**
 
 Die einzige Funktion dieser Kamera ist, ein Livebild auf dem Bildschirm anzuzeigen.
 
