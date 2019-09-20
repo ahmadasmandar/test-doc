@@ -43,11 +43,11 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 ---
 Zeigt die Batteriespannung in cV an, z.B.: 779 bedeutet 7,79 Volt.
 
-<img src="images/akku-connected.PNG" width="321" height="45">
+<img src="images/akku-connected.png" width="321" height="45">
 
 Vor dem Drücken der Taste **COM-Port verbinden** wird die Batteriespannung nicht angezeigt.
 
-<img src="images/akku-notconnected.PNG" width="321" height="45">
+<img src="images/akku-notconnected.png" width="321" height="45">
 
 
 ### **Eisenbahn**  
@@ -146,9 +146,9 @@ Wenn der Zug zu schnell fährt, wird der QR-Code nicht erkannt. Die Meldung wird
 
 Mit Hilfe einer Laserlinie wird das Objekt, das sich auf einem Zugwagen befindet, gescannt. Nach dem Scannen wird ein 3D-Foto auf dem Bildschirm angezeigt, das über den Touchscreen um 360 Grad gedreht werden kann.
 
-<img src="images/3d.PNG" width="381" height="256"> 
+<img src="images/3d.png" width="381" height="256"> 
 
-[Abb 12](images/3d.PNG) "3D via Laserlinie"
+[Abb 12](images/3d.png) "3D via Laserlinie"
 
 | Taste      | Funktion                                                  |
 | ---------- | --------------------------------------------------------- |
@@ -172,9 +172,9 @@ Scannen             |  3D-Bild
 
 Wenn die aufgenommenen Bilder nicht ausreichen, um ein 3D-Modell zu berechnen, wird eine Fehlermeldung auf dem Bildschirm angezeigt.
 
-<img src="images/Error3d.PNG" width="304" height="147"> 
+<img src="images/Error3D.PNG" width="304" height="147"> 
 
-[Abb 14](images/Error3d.PNG) "3D Fehler"
+[Abb 14](images/Error3D.PNG) "3D Fehler"
 
 ## **Multispectral**
 
