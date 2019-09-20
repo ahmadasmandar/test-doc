@@ -37,12 +37,18 @@ Wenn man die **Demo Modus** Taste bevor **Kamerasinitialisieren** Taste drückt,
 
 ---  
 
-## **Programmbedienung**  
-
+## **Steuerteil 1** 
 ### **Akku**
 
 ---
-![placeholder](images/placeholder.PNG)
+Zeigt die Batteriespannung in cV an, z.B.: 779 bedeutet 7,79 Volt.
+
+<img src="images/akku-connected.PNG" width="321" height="45">
+
+Vor dem Drücken der Taste **COM-Port verbinden** wird die Batteriespannung nicht angezeigt.
+
+<img src="images/akku-notconnected.PNG" width="321" height="45">
+
 
 ### **Eisenbahn**  
 
@@ -99,21 +105,101 @@ Nachdem das Programm initialisiert wurde -wie im Abschnitt [**Programm Initialis
 Im Demo Modus fährt der Zug immer wieder im Kreisbahn. In der erste Runde wird die **QR-Code** gescannt und erkennt. Dann in der Nächsten wird ein Objekt durch **3D-Laserscanner** gescannt. Dannch wird ein **multispektral** Foto aufgenommen. Alles wiederholt sich immer wieder, bis die **Demo Modus** Taste wieder gedrückt wird.  
 
 
-## **QR-Code Kamera**  
+# **Manuell-Modus**
 
- <img src="images/QR1.PNG" width="500" height="350"> 
-<!-- ![Abb3](images/QR1.PNG "QR code Kamera")   -->
+In diesem Teil werden die Funktionen des Programms manuell gesteuert, das System muss jedoch zuvor initialisiert werden.
 
-Diese Kamera dient zur Erkennung eines QR-Codes, das sich auf einem Wagen befindet.
+## **Steuerteil 2**
+
+### **Webcam QR-Code** 
+
+Diese Kamera wird verwendet, um einen QR-Code zu erkennen, der sich in einem Zugwagen befindet.
+
+ <img src="images/QR1.PNG" width="333" height="233"> 
+ 
+[Abb 9](images/QR1.PNG) "Webcam QR-Code"
+"
 
 | Taste      | Funktion                                                  |
 | ---------- | --------------------------------------------------------- |
-| **Livebild**   | die Kamera zeigt die Bildkomposition über den Bildschirm  |
-| **Stopp**      | Kamera Ausschalten                                        |
-| **Einzelbild** | ein Foto aufnehmen und auf dem Bildschirm zeigen          |
-| **Erkennen**   | QR-Code im Bild erkenen und In der Textuelle unten Zeigen |  
+| **Livebild**   | Kamera einschalten und das Filmmaterial auf dem Bildschirm anzeigen  |
+| **Stopp**      | Kamera ausschalten                                       |
+| **Einzelbild** | Bild aufnehmen und auf dem Bildschirm anzeigen          |
+| **Erkennen**   | Erkennen des QR-Codes im Bild und Anzeigen einer Meldung auf dem Bildschirm | 
 
- <img src="images/QRerkennen.PNG" width="500" height="350"> 
-<!-- ![Abb3](images/QRerkennen.PNG "QR code erkennen")   -->
+Wenn der Zug den Bahnhof erreicht, fährt er langsam und hält dann an, so dass der QR-Code direkt unter der zu erkennenden Webcam positioniert wird. Wenn der QR-Code erkannt wird, wird neben dem Wort Text eine grüne Meldung angezeigt (siehe Abbildung 10)
+
+
+ <img src="images/QRerkennen.PNG" width="333" height="233"> 
+ 
+[Abb 10](images/QRerkennen.PNG) "QR-Code erkannt"
+
+Wenn der Zug zu schnell fährt, wird der QR-Code nicht erkannt. Die Meldung wird rot und zeigt `Nichts erkannt` an (Abbildung 11).
+
+<img src="images/notdetected.PNG" width="333" height="233"> 
+ 
+[Abb 11](images/notdetected.PNG) "QR-Code nicht erkannt"
 
 ---
+
+## **3D via Laserlinie** 
+
+Mit Hilfe einer Laserlinie wird das Objekt, das sich auf einem Zugwagen befindet, gescannt. Nach dem Scannen wird ein 3D-Foto auf dem Bildschirm angezeigt, das über den Touchscreen um 360 Grad gedreht werden kann.
+
+<img src="images/3d.PNG" width="381" height="256"> 
+
+[Abb 12](images/3d.PNG) "3D via Laserlinie"
+
+| Taste      | Funktion                                                  |
+| ---------- | --------------------------------------------------------- |
+| **Livebild**   | Kamera einschalten und das Filmmaterial auf dem Bildschirm anzeigen  |
+| **Stopp**      | Kamera ausschalten                                        |
+| **Bildaufnahme** | Bilder aufnehmen        |
+| **Aufnahmestopp**   | der Aufnahmeprozess beenden |
+| **3D-Berechnung**   | Berechnung der aufgenommenen Bilder in einem 3D-Bild |
+
+Hier ist ein Bild, das den Scan und das endgültige 3D-Bild zeigt.
+
+Scannen             |  3D-Bild
+:-------------------------:|:-------------------------:
+![](images/scanning3d2.PNG)  |  ![](images/3dpic2.PNG)
+[Abb 13](images/scanning3d2.PNG) "Scanprozess"
+
+**Hier ist eine vollständige Vorschau des Arbeitsablaufs für die 3D-Laserkamera** 
+
+<img src="images/gifs/3d-laser-linie.gif" >
+
+
+Wenn die aufgenommenen Bilder nicht ausreichen, um ein 3D-Modell zu berechnen, wird eine Fehlermeldung auf dem Bildschirm angezeigt.
+
+<img src="images/Error3d.PNG" width="304" height="147"> 
+
+[Abb 14](images/Error3d.PNG) "3D Fehler"
+
+## **Multispectral**
+
+Diese Kamera verwendet die Halogenlampe, um ein Infrarotbild im nahen Infrarotbereich aufzunehmen.
+
+<img src="images/Multispektral.PNG" width="316" height="178"> 
+
+[Abb 15](images/Multispektral.PNG) "Multispektral"
+
+| Taste      | Funktion                                                  |
+| ---------- | --------------------------------------------------------- |
+| **Livebild**   | Kamera einschalten und das Filmmaterial auf dem Bildschirm anzeigen  |
+| **Stopp**      | Kamera ausschalten                                     |
+| **Einzelbild** | Bild aufnehmen und auf dem Bildschirm anzeigen          |
+
+## **Infrared**
+
+Die einzige Funktion dieser Kamera ist, ein Livebild auf dem Bildschirm anzuzeigen.
+
+<img src="images/Infrarot.PNG" width="316" height="178"> 
+
+[Abb 16](images/Infrarot.PNG) "Infrarot"
+
+| Taste      | Funktion                                                  |
+| ---------- | --------------------------------------------------------- |
+| **Livebild**   | Kamera einschalten und das Filmmaterial auf dem Bildschirm anzeigen  |
+| **Stopp**      | Kamera ausschalten                                     |
+| **Einzelbild** | Bild aufnehmen und auf dem Bildschirm anzeigen          |
