@@ -178,7 +178,12 @@ Scanning             |  3D-Picture
 
 If the recorded photos are insufficient to calculate a 3D model, an error message will be displayed on the screen.
 
-<img src="images/Error3D.PNG" width="304" height="147"> 
+<img src="images/Error3D.PNG" width="304" height="147">   
+
+Here is a full preview to the work flow for the 3D-Laser Camera.  
+
+<img src="images/gifs/3d-laser-linie.gif" >
+
 
 [Fig 14](images/Error3D.PNG) "3D Error"
 
