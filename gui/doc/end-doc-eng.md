@@ -112,7 +112,7 @@ After the program has been initialized, as described in the section [**Programm 
 
 <img src="images/demotaste.PNG" width="268" height="81"> 
 
-[Fig 8](images/demotaste.PNG) "Halogen lamp"
+[Fig 9](images/demotaste.PNG) "Demo-Mode Button"
 
 These steps are repeated until the Demo Mode button is pressed again.
 
@@ -128,7 +128,7 @@ This camera is used to detect a QR code that is on a train carriage.
 
  <img src="images/QR1.PNG" width="333" height="233"> 
  
-[Fig 9](images/QR1.PNG) "Webcam QR-Code"
+[Fig 10](images/QR1.PNG) "Webcam QR-Code"
 "
 
 | Button      | Function                                                  |
@@ -143,13 +143,13 @@ When the train reaches the station, it moves slowly and then stops, so that the 
 
  <img src="images/QRerkennen.PNG" width="333" height="233"> 
  
-[Fig 10](images/QRerkennen.PNG) "QR-Code detected"
+[Fig 11](images/QRerkennen.PNG) "QR-Code detected"
 
 If the train is moving too fast, the QR-Code can not be detected. The message turns red and says `nothing recognized` (Fig 11).
 
 <img src="images/notdetected.PNG" width="333" height="233"> 
  
-[Fig 11](images/notdetected.PNG) "QR-Code not recognized"
+[Fig 12](images/notdetected.PNG) "QR-Code not recognized"
 
 ---
 
@@ -159,7 +159,7 @@ With the help of a laser line, the object, which is located on a train carriage,
 
 <img src="images/3d.png" width="381" height="256"> 
 
-[Fig 12](images/3d.png) "3D via Laser line"
+[Fig 13](images/3d.png) "3D via Laser line"
 
 | Button      | Function                                                  |
 | ---------- | --------------------------------------------------------- |
@@ -174,18 +174,20 @@ Here is a picture showing the scanning process and the final displayed 3D-Pictur
 Scanning             |  3D-Picture
 :-------------------------:|:-------------------------:
 ![](images/scanning3d2.PNG)  |  ![](images/3dpic2.PNG)
-[Fig 13](images/scanning3d2.PNG) "Scanning process"
+
+[Fig 14](images/scanning3d2.PNG) "Scanning process"
 
 If the recorded photos are insufficient to calculate a 3D model, an error message will be displayed on the screen.
 
 <img src="images/Error3D.PNG" width="304" height="147">  
 
-[Fig 14](images/Error3D.PNG) "3D Error"  
+[Fig 15](images/Error3D.PNG) "3D Error"  
 
 **Here is a full preview to the work flow for the 3D-Laser Camera.** 
 
 <img src="images/gifs/3d-laser-linie.gif" >
 
+[Fig 16](images/gifs/3d-laser-linie.gif) "Scanning-Animation" 
 
 ## **Multispectral**
 
@@ -193,7 +195,7 @@ This camera uses the halogen lamp to take an infrared image that is in the near 
 
 <img src="images/Multispektral.PNG" width="316" height="178"> 
 
-[Fig 15](images/Multispektral.PNG) "Multispectral"
+[Fig 17](images/Multispektral.PNG) "Multispectral"
 
 | Button      | Function                                                  |
 | ---------- | --------------------------------------------------------- |
@@ -207,7 +209,7 @@ The only function of this camera is to display a live image on the screen.
 
 <img src="images/Infrarot.PNG" width="316" height="178"> 
 
-[Fig 16](images/Infrarot.PNG) "Infrared"
+[Fig 18](images/Infrarot.PNG) "Infrared"
 
 | Button      | Function                                                  |
 | ---------- | --------------------------------------------------------- |
