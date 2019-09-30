@@ -108,7 +108,7 @@ The **multispectral camera** needs special lighting conditions (infrared radiato
 --- 
 
 
-After the program has been initialized, as described in the section [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#programm-initialisieren), the demo mode key can be pressed. In demo mode, the train always travels on a circular path. In the first round, the QR code is scanned and recognized, and a multispectral photo will be taken. In the second round, the object on the wagon (the car) is scanned with a 3D laser scanner.
+After the program has been initialized, as described in the section [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#programm-initialisieren), the demo mode key can be pressed. In demo mode, the train always travels on a circular path. In the first round, the object on the Train carriage (the car) is scanned with a 3D laser scanner. In the second round, a photo of the QR code will be taken, scanned and recognized, and a multispectral photo will be also taken.
 
 <img src="images/demotaste.PNG" width="268" height="81"> 
 
