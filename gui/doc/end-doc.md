@@ -102,7 +102,7 @@ Im Auto :`Die Kamera wird nur eingeschaltet, wenn der Wagen in der richtigen Pos
 
 Nachdem das Programm initialisiert wurde -wie im Abschnitt [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#programm-initialisieren)-, kann man die **Demo Modus** Taste drücken.  
 
-Im Demo Modus fährt der Zug immer wieder im Kreisbahn. In der erste Runde wird die **QR-Code** gescannt und erkennt. Dann in der Nächsten wird ein Objekt durch **3D-Laserscanner** gescannt. Dannch wird ein **multispektral** Foto aufgenommen. Alles wiederholt sich immer wieder, bis die **Demo Modus** Taste wieder gedrückt wird.  
+Im **Demo-Modus** fährt der Zug immer auf einer Kreisbahn. In der ersten Runde wird das Objekt auf dem Zugwagen (das Auto) mit einem **3D-Laserscanner** gescannt. In der zweiten Runde wird ein Foto des **QR-Codes** aufgenommen, gescannt und erkannt, und es wird auch ein **multispektrales** Foto aufgenommen.  
 
 
 # **Manuell-Modus**
