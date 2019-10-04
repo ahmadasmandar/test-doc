@@ -157,7 +157,7 @@ Here is a picture showing the scanning process and the final displayed 3D-Pictur
 
 Scanning             |  3D-Picture
 :-------------------------:|:-------------------------:
-![Scan](images/3d-scan.PNG)  |  ![Result](images/3d-pic.PNG)
+![Scan](images/3d-scan.png)  |  ![Result](images/3d-pic.png)
 
 To manually start a 3D scan, these steps must be performed:
 1. Click the button **Bildaufnahme**
@@ -190,7 +190,7 @@ Here are two pictures of a 100-euro bill, how it looks in normal light and how i
 
 Normal (RGB-Photo)             |  Multispectral (Near-Infrared-Photo)
 :-------------------------:|:-------------------------:
-![RGB 100](images/100-euro.PNG)  |  ![Multispectral 100](images/100-euro-infra.PNG)
+![RGB 100](images/100-euro.png)  |  ![Multispectral 100](images/100-euro-infra.png)
 
 **NOTE: This camera needs a lot of light, so the halogen lamp must be on to see the object. The LEDs do not affect this camera because they emit only visible and no near infrared light.**
 
