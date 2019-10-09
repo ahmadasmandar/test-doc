@@ -8,7 +8,7 @@ Der Demonstrator verfügt über einen Demo-Modus und einen manuellen Modus.
 
 ## GUI Übersicht
 
-Es ist eine von **Matlab Guide** erstellte Benutzeroberfläche zur Steuerung des Systems.  
+Die Benutzeroberfläche, die der Steurung des Systems dient, wurde von **Matlab Guide** erstellte.  
 Die Schnittstelle kann in vier Abschnitte unterteilt werden:
 
 - Abschnitt initialisieren **Teil 1** mit zwei Tasten
@@ -36,18 +36,18 @@ Wenn das System zum ersten Mal eingeschaltet wird, muss es initialisiert werden,
 
 ### COM Ports
 
-Wenn Sie **COM-Port verbinden-Taste** drücken, um die Kommunikation über die serielle Schnittstelle zu starten, dauert es eine Weile, bis die Tasten in **Teil 2** aktiviert und betriebsbereit sind. Es kann ein kleiner Test durchgeführt werden, um sicherzustellen, dass das System angeschlossen ist, z.B.: Änderung der Geschwindigkeit des Zuges und Überprüfung, ob er sich bewegt.  
-**Hinweis: Die Bahn muss eingeschaltet sein, um die Verbindung herzustellen.**
+Um die Kommunikation über die serielle Schnittstelle zu starten, soll **COM-Port verbinden-Taste** gedtückt werden. Es dauert eine Weile, bis die Tasten in **Teil 2** aktiviert und betriebsbereit sind. Es kann ein kleiner Test durchgeführt werden, um sicherzustellen, dass das System angeschlossen ist, z.B.: Änderung der Geschwindigkeit des Zuges und Überprüfung, ob er sich bewegt.  
+**Hinweis: Der Zug muss eingeschaltet sein, um die Verbindung herzustellen.**
 
 ### Kameras
 
 Nach dem Drücken von **Kameras initialisieren-Taste** ~~und Während des Wartens auf die Verbindung von den Kameras~~ werden die Tasten in **Teil 3** nach einer erfolgreichen Verbindung aktiviert. Die Initialisierung der Kameras dauert zum ersten Mal ungefähr **30 Sekunden**.  
-Nach dieser beiden Schritten ist das Programm bereit und kann gestartet werden. Die oben genannten Schaltflächen befinden sich auf der rechten oberen Seite der Benutzeroberfläche (**Teil 1**).
+Nach diesen beiden Schritten ist das Programm bereit und kann gestartet werden. Die oben genannten Schaltflächen befinden sich auf der rechten oberen Seite der Benutzeroberfläche (**Teil 1**).
 
 Die **Initialisierung** muss immer beim Start im Manual- und im Demo-Modus ausgeführt werden.
-Der Abschnitt **Steuerungen** kann im manuellen Modus live genutzt werden, ist aber im Demo-Modus völlig passiv. Die Voreinstellungen für die **LED** und die **Halogenlampe** bleiben im Demo-Modus gültig. Die Einstellungen für die **Bahn** werden ignoriert.
-Wenn die **LEDs** oder die **Halogenlampe** auf Auto eingestellt sind, werden sie nur während der Aufnahme der Fotos eingeschaltet. (die "Led" für QR-Code, die "Halogenlampe" für das Multispektralbild). <br/>
-**HINWEIS: Der Kontakt der Halogenlampe ist nicht stabil.**<br/>
+Der Abschnitt **Kontrol** kann im manuellen Modus live genutzt werden, ist aber im Demo-Modus völlig passiv. Die Voreinstellungen für die **LED** und die **Halogenlampe** bleiben im Demo-Modus gültig. Die Einstellungen für die **Bahn** werden ignoriert.
+Wenn die **LEDs** oder die **Halogenlampe** auf Auto eingestellt sind, werden sie nur während der Aufnahme der Fotos eingeschaltet. (die "Led" für QR-Code, die "Halogenlampe" für das Multispektralbild).  
+**HINWEIS: Der Kontakt der Halogenlampe ist nicht stabil.**  
 Der Bereich **Kameras** kann im manuellen Modus live genutzt werden, ist aber im Demo-Modus vollständig passiv. Die Daten werden angezeigt, obwohl die Tasten nicht gedrückt werden können.
 Mit der Schaltfläche **Demo-Mode** wird der Demo-Modus aktiviert / deaktiviert.
 
@@ -55,7 +55,7 @@ Mit der Schaltfläche **Demo-Mode** wird der Demo-Modus aktiviert / deaktiviert.
 
 In diesem Teil werden die Funktionen des Programms manuell gesteuert.
 
-### Kontrollen
+### Kontrol
 
 #### Akku
 
@@ -63,7 +63,7 @@ Zeigt den Ladezustand der Batterie in cV an, z.B.: 779, das bedeutet 7,79 Volt.
 
 ![Battery is connected](images/battery-connected.png)
 
-Ohne Verbindung zum **COM-Port** wird die Spannung der Batterie nicht angezeigt. Das kann auch passieren, wenn der Zug nicht **angeschaltet** ist.
+Ohne Verbindung zum **COM-Port** kann die Spannung der Batterie nicht angezeigt werden. Das kann auch passieren, wenn der Zug nicht **angeschaltet** ist.
 
 #### Eisenbahn
 
@@ -75,20 +75,22 @@ Dieser Teil hilft dabei, den Zug manuell zu steuern, die Fahrtrichtung entweder 
 | ------------------- | -------------------------------------- |
 | **Links**           | Bewegungsrichtung nach Links auswählen |
 | **Rchts**           | Bewegungsrichtung nach Rechts auswälen |
-| **Geschwindigkeit** | Zugsgeschwindigkeit von 0 -- 9         |
+| **Geschwindigkeit** | Zugsgeschwindigkeit von 0 -- 10        |
+
+**Wenn die Geschwindigkeit auf 10 im Manualmodus gestellt werden, fährt der Zug nicht.**
 
 #### Leds
 
-Weil die Raumbeleuchtung nicht ausreicht, um die einwandfreie Funktion der **QR-Code Webcam** zu gewährleisten, sind einige Optionen zur Verfügung, damit die Beleuchtung verbessert werden kann.
+Weil die Raumbeleuchtung manchmal nicht ausreicht, damit die **QR-Code Webcam** einwandfreie funktioniert, sind einige Optionen zur Verfügung, die die Beleuchtung verbessert werden können.
 **HINWEIS: Die LEDs haben keinen Einfluss auf die Multispektralkamera (Nahinfrarot), da sie nur sichtbares Licht ausstrahlen.**
 
 ![LEDs control panel](images/led-panel.png)
 
 | Taste     | Funktion                                     |
 | --------- | -------------------------------------------- |
-| **Led 1** | Led 1 anschalten                             |
-| **Led 2** | Led 2 anschalten                             |
-| **Beide** | Led 1 und Led 2 zusammen anschalten          |
+| **Led 1** | Led 1 einschalten                            |
+| **Led 2** | Led 2 einschalten                            |
+| **Beide** | Led 1 und Led 2 zusammen einschalten         |
 | **Auto**  | die beiden Leds werden automatisch aktiviert |
 | **Aus**   | die beiden Leds ausschalten                  |
 
@@ -104,7 +106,7 @@ Die **Multispektralkamera** setzt spezielle _Lichtbedingungen_ voraus (Infrarots
 | Taste    | Funktion                                       |
 | -------- | ---------------------------------------------- |
 | **Aus**  | Lampe ausschalten                              |
-| **An**   | Lampe anschalten                               |
+| **An**   | Lampe einschalten                              |
 | **Auto** | Lampe wird automatisch ein- oder ausgeschaltet |
 
 **Hinweiß zum auto-button**:  
@@ -131,7 +133,7 @@ Wenn der QR-Code erkannt wird, erscheint neben dem Wort **Text** eine grüne Mel
 
 ![QR-Code detected](images/qr-detected.png)
 
-Wenn der Zug zu schnell fährt, kann der QR-Code nicht erkannt werden. Die Meldung wird rot und lautet **nichts erkannt**.
+Wenn der Zug zu schnell fährt, kann der QR-Code nicht erkannt werden (manual Modus). Die Meldung wird rot und lautet **nichts erkannt**.
 
 ![QR-Code not detected](images/qr-not-detected.png)
 
@@ -158,7 +160,7 @@ Hier ist ein Bild, das den Scanvorgang und das endgültige 3D-Bild zeigt.
 Um einen 3D-Scan manuell zu starten, müssen diese Schritte durchgeführt werden:
 
 1. Klicken Sie auf die Schaltfläche **Bildaufnahme**.
-2. Lassen Sie den Zug mit konstanter Geschwindigkeit durch die Lichtschranke fahren.
+2. Lassen Sie den Zug mit konstanter langsamer Geschwindigkeit durch die Lichtschranke fahren.
 3. Klicken Sie auf die Schaltfläche **Aufnahmestopp**.
 4. Klicken Sie auf die Schaltfläche **3D-Berechnung**.
 
@@ -166,13 +168,13 @@ Wenn die aufgenommenen Fotos nicht ausreichen, um ein 3D-Modell zu berechnen, wi
 
 ![3D error](images/3d-error.png)
 
-**Hier ist eine Vorschau auf den Arbeitsablauf der 3D-Laserkamera.**
+**Hier ist eine Vorschau vom Arbeitsablauf der 3D-Laserkamera.**
 
 ![Scan animated](images/gifs/3d-laser-line.gif)
 
 #### Multispektralkamera
 
-Diese Kamera verwendet die Halogenlampe, um ein Infrarotbild, die im nahen der Infrarotbereich ist, aufzunehmen.
+Diese Kamera verwendet die Halogenlampe, um ein Bild, die im nahen der Infrarotbereich ist, aufzunehmen.
 
 ![Multispectral camera](images/multispectral-part.png)
 
@@ -188,7 +190,7 @@ Hier sind zwei Bilder von einem 100-Euro-Schein, wie er bei normalem Licht aussi
 | :-----------------------------: | :---------------------------------------------: |
 | ![RGB 100](images/100-euro.png) | ![Multispectral 100](images/100-euro-infra.png) |
 
-**HINWEIS: Diese Kamera benötigt viel Licht. Daher muss die Halogenlampe eingeschaltet sein, um das Objekt zu sehen. Die LEDs beeinflussen diese Kamera nicht, da sie kein Infrarotlicht aussenden.**
+**HINWEIS: Diese Kamera benötigt viel Licht. Daher muss die Halogenlampe eingeschaltet sein, um das Objekt zu sehen. Die LEDs beeinflussen diese Kamera nicht, da sie kein Infrarotlicht ausstrahlen.**
 
 #### Infrarot
 
@@ -212,7 +214,7 @@ Das Hauptziel von **Demo Mode** ist es, verschiedene Messverfahren vollautomatis
 
 ### Demo-Modus-Taste
 
-Nach der Initialisierung des Programms, wie im Abschnitt [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#programm-initialisieren), kann die Taste Demo-Modus gedrückt werden. Im Demo-Modus fährt der Zug immer auf einer Kreisbahn. In der ersten Runde fährt der Zug langsam bis zum Bahnhof, so dass sich ein schwarzes Kunststoffstück entlang einer Fotozelle bewegen kann, und aktiviert die Laserlinie, die das Objekt auf dem Zugwagen (dem Wagen) abtastet. In der zweiten Runde verlangsamt sich der Zug, wenn er den Bahnhof erreicht, die Ampel wird rot, dann hält der Zug an, so dass der QR-Code (auf einem Wagen) unter der Webcam positioniert wird und das zweite Objekt (Fahrtiecket) unter der Multispektralkamera steht, zwei Fotos werden in dieser Runde aufgenommen, ein QR-Code Foto und ein Multispektralfoto.
+Nach der Initialisierung des Programms, wie im Abschnitt [**Programm Initialisieren**](https://gitlab.tu-ilmenau.de/FakMB/QBV/systems/legocity/legocity/blob/master/gui/doc/end-doc.md#programm-initialisieren), kann die Taste Demo-Modus gedrückt werden. Im Demo-Modus fährt der Zug immer auf einer Kreisbahn. In der ersten Runde fährt der Zug langsam bis zum Bahnhof, so dass sich ein schwarzes Kunststoffstück entlang einer Fotozelle bewegen kann, und aktiviert die Laserlinie, die das Objekt auf dem Zugwagen (dem Wagen) scannt. In der zweiten Runde verlangsamt sich der Zug, sobald er den Bahnhof erreicht, die Ampel wird rot, dann hält der Zug an, damit der QR-Code (auf einem Wagen) unter der Webcam positioniert wird und das zweite Objekt (Fahrtiecket) unter der Multispektralkamera steht, zwei Fotos werden in dieser Runde aufgenommen, ein QR-Code Foto und ein Multispektralfoto.
 
 ![Demo mode button](images/demo-button.png)
 
